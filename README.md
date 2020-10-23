@@ -44,7 +44,7 @@ Models should conform to the following formats:
 }
 ```
 
-Changes done
+## Changes done
 	Moved all database operation methods to separate class named DataAccess
 	Utilized Dapper in ADO.Net to simplify model mapping from SQL dataset
 	Converted all SQL Select Queries to Stored Procedures
@@ -52,7 +52,7 @@ Changes done
 	Added try catch exception in controller methods to handle all exception at one place
 	Added appropriate comments to all the classes and methods
 	
-Future Changes
+## Future Changes
 	Implement Repository/Dependency Injection pattern
 	Change Insert SQL queries to Stored Procedure
 	
